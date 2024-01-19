@@ -1,6 +1,6 @@
-import React from 'react';
-import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-import useStyles from './parallax-style';
+import React from "react";
+import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+import useStyles from "./parallax-style";
 
 export default function ParallaxDots() {
   const { classes, cx } = useStyles();
@@ -8,10 +8,7 @@ export default function ParallaxDots() {
     <div className={cx(classes.parallaxWrap, classes.dotsWrap)}>
       <ParallaxProvider>
         <div className={classes.innerParallax}>
-          <Parallax
-            translateY={[-50, 50]}
-            className="figure"
-          >
+          <Parallax translateY={[-50, 50]} className="figure">
             <svg
               fill="#cccccc"
               width={902}

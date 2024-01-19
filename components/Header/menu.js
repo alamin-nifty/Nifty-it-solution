@@ -1,8 +1,3 @@
-const menu = [
-  'about',
-  'services',
-  'our-expertise',
-  'case-studies',
-];
+const menu = ["our-services", "services", "our-expertise", "case-studies"];
 
 export default menu;
