@@ -25,7 +25,7 @@
   "ar": "󠁥󠁮󠁧󠁿العربيّة",
   "notif_msg": "This is an example of a message that is commonly used for important information to visitors or users. Please click the button beside to close this message.",
   "agency-landing": {
-    "header_about": "about",
+    "header_our-services": "our services",
     "header_services": "services",
     "header_our-expertise": "our expertise",
     "header_testimonials": "testimonials",
@@ -46,7 +46,7 @@
     "about_client": "clients",
     "about_quote": "It leaves a taste that's bittersweet That's called the blues",
     "services_title": "Our Services",
-    "services_button": "see detail",
+    "services_button": "Learn more",
     "expertise_title": "Our Expertise",
     "expertise_subtitle": "A successful project is built with a successful team.",
     "expertise_paragraph": "Which is why we provide you with the human resources you need to build whenever you need them. Our on_shoring & near offshoring teams are trained and supervised as part of Us. Your team is dedicated to your projects. And the team is flexible!",
