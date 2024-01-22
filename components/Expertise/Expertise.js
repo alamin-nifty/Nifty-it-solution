@@ -14,15 +14,8 @@ import useTitle from "../Title/title-style";
 import TitleDeco from "../Title/WithDecoration";
 
 const expertiseList = [
-  ["social media", "marketing", "SEO"],
-  ["Web Development", "UI Designs", "Mobile Apps"],
-  ["Photography", "Company Profile", "Visual Editing"],
-  ["social media", "marketing", "SEO"],
-  ["Web Development", "UI Designs", "Mobile Apps"],
-  ["Photography", "Company Profile", "Visual Editing"],
-  ["social media", "marketing", "SEO"],
-  ["Web Development", "UI Designs", "Mobile Apps"],
-  ["Photography", "Company Profile", "Visual Editing"],
+  ["Software Development", "Mobile App Development"],
+  ["Book Keeping", "Accounting", "Advisory"],
 ];
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
@@ -51,7 +44,7 @@ function Expertise() {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 3000,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
   };
@@ -65,7 +58,7 @@ function Expertise() {
   }, []);
 
   return (
-    <Fragment>
+    <Fragment className={classes.FragmentRoot}>
       <svg
         fill="#cccccc"
         width={845}
@@ -76,7 +69,6 @@ function Expertise() {
       </svg>
       <div className={classes.root}>
         <Container
-          fixed
           onMouseMove={({ clientX: x, clientY: y }) =>
             setPosition({ xy: calc(x, y) })
           }
