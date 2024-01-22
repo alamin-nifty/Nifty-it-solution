@@ -15,6 +15,7 @@ import VideoBanner from "~/components/VideoBanner";
 import SquareParallax from "~/components/Parallax/Square";
 import About from "~/components/About";
 import Services from "~/components/Services";
+import CustomFlyer from "~/components/CustomFlyer";
 import Testimonials from "~/components/Testimonials";
 import Expertise from "~/components/Expertise";
 import CaseStudies from "~/components/CaseStudies";
@@ -92,6 +93,9 @@ function Landing(props) {
           </section>
           <section className={classes.spaceTop} id="our-services">
             <Services />
+          </section>
+          <section className={classes.spaceTop} id="our-services">
+            <CustomFlyer />
           </section>
           <section
             className={isTablet ? classes.spaceTopShort : classes.spaceTop}
