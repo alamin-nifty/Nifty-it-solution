@@ -99,17 +99,17 @@ function Landing(props) {
           </section>
           <section
             className={isTablet ? classes.spaceTopShort : classes.spaceTop}
-            id="about"
-          >
-            <About />
-          </section>
-
-          <section
-            className={isTablet ? classes.spaceTopShort : classes.spaceTop}
             id="our-expertise"
           >
             <Expertise />
           </section>
+          {/* <section
+            className={isTablet ? classes.spaceTopShort : classes.spaceTop}
+            id="about"
+          >
+            <About />
+          </section> */}
+
           <section
             className={isMobile ? classes.spaceTopShort : classes.spaceTop}
             id="testimonials"
